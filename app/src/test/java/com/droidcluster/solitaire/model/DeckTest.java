@@ -2,14 +2,23 @@ package com.droidcluster.solitaire.model;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+
 public class DeckTest {
 
     @Test
-    public void shuffle() {
+    public void shuffleTest() {
+        Deck deck = new Deck(Card.T1, Card.T2, Card.T3, Card.T4);
+        Deck deckCopy = new Deck(Card.T1, Card.T2, Card.T3, Card.T4);
+        assertEquals(deck, deckCopy);
+        deck.shuffle();
+        assertNotEquals(deck, deckCopy);
     }
 
     @Test
-    public void reverse() {
+    public void reverseTest() {
+
     }
 
     @Test
