@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Built application files
 *.apk
 *.aar
@@ -86,3 +87,14 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
+||||||| merged common ancestors
+=======
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+gradle*
+>>>>>>> 9af1568d7700b76cb6c069e7ac70bb248337865c
