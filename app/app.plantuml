@@ -1,0 +1,379 @@
+@startuml
+
+title __APP's Class Diagram__\n
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.BuildConfig {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.CardTouchListener {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.GameView {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.HintController {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.InitTask {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.LoadImagesTask {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.MainActivity {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.MenuController {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.Mover {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.PrefChangeToWhiteboardForwarder {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.ScoreManager {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.ScoreViewUpdater {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.SettingsActivity {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.SettingsManager {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.ShowAutofinishButtonListener {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.StatsManager {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.UpdateStatsListener {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.Utils {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.WelcomeController {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    class com.droidcluster.solitaire.Whiteboard {
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace game {
+      class com.droidcluster.solitaire.game.GameTimer {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace game {
+      class com.droidcluster.solitaire.game.JSONSerializer {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace game {
+      class com.droidcluster.solitaire.game.JSONStorage {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace game {
+      class com.droidcluster.solitaire.game.Layout {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace game {
+      class com.droidcluster.solitaire.game.Settings {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace game {
+      class com.droidcluster.solitaire.game.Solver {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace game {
+      interface com.droidcluster.solitaire.game.Storage {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace model {
+      abstract class com.droidcluster.solitaire.model.AbstractMove {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace model {
+      enum Card {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace model {
+      class com.droidcluster.solitaire.model.Deck {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace model {
+      interface com.droidcluster.solitaire.model.IMove2 {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace model {
+      class com.droidcluster.solitaire.model.Move {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace model {
+      class com.droidcluster.solitaire.model.RecycleWasteMove {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace model {
+      class com.droidcluster.solitaire.model.Stats {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace model {
+      class com.droidcluster.solitaire.model.Table {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace render {
+      class com.droidcluster.solitaire.render.CardRenderer {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace render {
+      class com.droidcluster.solitaire.render.Renderer {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace render {
+      class com.droidcluster.solitaire.render.TableRenderer {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace util {
+      class com.droidcluster.solitaire.util.ImageCache {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace util {
+      class com.droidcluster.solitaire.util.ImageLoader {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace util {
+      class com.droidcluster.solitaire.util.TimeConverter {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace util {
+      abstract class com.droidcluster.solitaire.util.TouchHandler2 {
+      }
+    }
+  }
+  
+
+  namespace com.droidcluster.solitaire {
+    namespace util {
+      class com.droidcluster.solitaire.util.Util {
+      }
+    }
+  }
+  
+
+  namespace im.delight.apprater {
+    class im.delight.apprater.AppRater {
+    }
+  }
+  
+
+  com.droidcluster.solitaire.CardTouchListener .up.|> com.droidcluster.solitaire.Whiteboard.WhiteboardListener
+  com.droidcluster.solitaire.CardTouchListener -up-|> com.droidcluster.solitaire.util.TouchHandler2
+  com.droidcluster.solitaire.CardTouchListener o-- com.droidcluster.solitaire.model.Card : card
+  com.droidcluster.solitaire.CardTouchListener o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.GameView -up-|> android.widget.FrameLayout
+  com.droidcluster.solitaire.HintController .up.|> com.droidcluster.solitaire.Whiteboard.WhiteboardListener
+  com.droidcluster.solitaire.HintController o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.HintController o-- com.droidcluster.solitaire.game.Storage : storage
+  com.droidcluster.solitaire.InitTask -up-|> android.os.AsyncTask
+  com.droidcluster.solitaire.InitTask o-- com.droidcluster.solitaire.render.TableRenderer : cardRenderer
+  com.droidcluster.solitaire.InitTask o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.LoadImagesTask -up-|> android.os.AsyncTask
+  com.droidcluster.solitaire.LoadImagesTask o-- com.droidcluster.solitaire.util.ImageCache : cache
+  com.droidcluster.solitaire.LoadImagesTask o-- com.droidcluster.solitaire.game.Layout : layout
+  com.droidcluster.solitaire.LoadImagesTask o-- com.droidcluster.solitaire.game.Settings : settings
+  com.droidcluster.solitaire.MainActivity -up-|> android.app.Activity
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.game.Layout : layout
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.MenuController : menuController
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.Mover : mover
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.PrefChangeToWhiteboardForwarder : prefListener
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.ScoreManager : scoreManager
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.SettingsManager : settingsManager
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.game.Solver : solver
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.StatsManager : statsManager
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.game.JSONStorage : storage
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.model.Table : table
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.game.GameTimer : timer
+  com.droidcluster.solitaire.MainActivity o-- com.droidcluster.solitaire.WelcomeController : welcomeController
+  com.droidcluster.solitaire.MenuController o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.Mover o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.PrefChangeToWhiteboardForwarder .up.|> android.content.SharedPreferences.OnSharedPreferenceChangeListener
+  com.droidcluster.solitaire.PrefChangeToWhiteboardForwarder o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.ScoreManager o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.ScoreViewUpdater .up.|> com.droidcluster.solitaire.Whiteboard.WhiteboardListener
+  com.droidcluster.solitaire.ScoreViewUpdater o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.SettingsActivity -up-|> android.preference.PreferenceActivity
+  com.droidcluster.solitaire.SettingsManager o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.SettingsManager o-- com.droidcluster.solitaire.game.Settings : settings
+  com.droidcluster.solitaire.ShowAutofinishButtonListener .up.|> com.droidcluster.solitaire.Whiteboard.WhiteboardListener
+  com.droidcluster.solitaire.ShowAutofinishButtonListener o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.StatsManager o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.UpdateStatsListener .up.|> com.droidcluster.solitaire.Whiteboard.WhiteboardListener
+  com.droidcluster.solitaire.UpdateStatsListener o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.WelcomeController o-- com.droidcluster.solitaire.MainActivity : mainActivity
+  com.droidcluster.solitaire.game.JSONStorage .up.|> com.droidcluster.solitaire.game.Storage
+  com.droidcluster.solitaire.game.JSONStorage o-- com.droidcluster.solitaire.game.JSONSerializer : serializer
+  com.droidcluster.solitaire.model.AbstractMove .up.|> com.droidcluster.solitaire.model.IMove2
+  com.droidcluster.solitaire.model.Move -up-|> com.droidcluster.solitaire.model.AbstractMove
+  com.droidcluster.solitaire.model.RecycleWasteMove -up-|> com.droidcluster.solitaire.model.AbstractMove
+  com.droidcluster.solitaire.model.Table o-- com.droidcluster.solitaire.model.Deck : gameDeck
+  com.droidcluster.solitaire.model.Table o-- com.droidcluster.solitaire.model.Deck : waste
+  com.droidcluster.solitaire.render.CardRenderer -up-|> com.droidcluster.solitaire.render.Renderer
+  com.droidcluster.solitaire.render.Renderer o-- com.droidcluster.solitaire.game.Layout : layout
+  com.droidcluster.solitaire.render.TableRenderer -up-|> com.droidcluster.solitaire.render.CardRenderer
+  com.droidcluster.solitaire.util.TouchHandler2 .up.|> android.view.View.OnTouchListener
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
